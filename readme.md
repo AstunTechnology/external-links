@@ -27,4 +27,6 @@ Usage
 Example
 -------
 
-Clone the repository, serve the demo.html page under a local webserver (try changing into the repo and running `python -m SimpleHTTPServer` if you have python) and view in a browser. Just opening the file demo.html in a browser won't work as the hostname will be empty.
+Clone the repository, serve the demo.html page under a local webserver and view in a browser (try changing into the repo and running `python -m SimpleHTTPServer` if you have python installed). Just opening the file demo.html in a browser won't work as the hostname will be empty.
+
+You can also view the demo page thanks to [rawgithub.com](http://rawgithub.com) here: [external link demo](http://rawgithub.com/AstunTechnology/external-links/master/demo.html).
