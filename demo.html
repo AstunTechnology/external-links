@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>External Links - Demo</title>
+        <link rel="stylesheet" type="text/css" href="external-links.css" />
+        <style type="text/css">
+            body {
+                font-family: sans;
+            }
+            ul, li {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="example">
+            <ul>
+                <li><a href="#example">Internal link</a></li>
+                <li><a href="http://bbc.co.uk">BBC Website</a></li>
+                <li><a href="/">Another internal link</a></li>
+                <li><a href="http://reddit.com">Reddit</a></li>
+            </ul>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="external-links.js"></script>
+        <script type="text/javascript">
+            jQuery('#example').externalLinks();
+        </script>
+    </body>
+</html>
